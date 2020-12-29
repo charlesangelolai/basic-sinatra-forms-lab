@@ -10,10 +10,11 @@ gem 'thin'
 gem 'shotgun'
 gem 'pry'
 gem 'require_all'
+gem 'rspec'
+gem 'capybara'
+gem 'rack-test'
+gem 'poltergeist'
 
-group :test do
-  gem 'rspec'
-  gem 'capybara'
-  gem 'rack-test'
-  gem 'poltergeist'
-end
+# group :test do
+
+# end
